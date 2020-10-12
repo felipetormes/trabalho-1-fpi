@@ -1,4 +1,4 @@
-function out = contrast_stretching_cinza(img, a, b, Va, Vb)
+function out = contrast_stretching(img, a, b, Va, Vb)
     [x, y] = size(img);
     out = img;
     L = 255;

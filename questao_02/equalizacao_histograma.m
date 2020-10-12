@@ -1,4 +1,4 @@
-function out = equalizacao_histograma_cinza(img)
+function out = equalizacao_histograma(img)
     [x, y] = size(img);
     num_of_pixels = x * y;
     out = img;
