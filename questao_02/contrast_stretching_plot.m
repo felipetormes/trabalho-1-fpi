@@ -1,5 +1,5 @@
-function contrast_stretching_plot(img, a, b, Va, Vb)
-    img_stretched = contrast_stretching(img, a, b, Va, Vb);
+function contrast_stretching_plot(img, a, b, Va, Vb, L)
+    img_stretched = contrast_stretching(img, a, b, Va, Vb, L);
     
     figure;
     subplot(2,2,1); imshow(img); title('Imagem original');

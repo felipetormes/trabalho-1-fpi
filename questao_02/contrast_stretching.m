@@ -1,7 +1,6 @@
-function out = contrast_stretching(img, a, b, Va, Vb)
+function out = contrast_stretching(img, a, b, Va, Vb, L)
     [x, y] = size(img);
     out = img;
-    L = 255;
     alpha = Va / a;
     beta = (Vb - Va) / (b - a);
     gama = (L - Vb) / (L - b);
