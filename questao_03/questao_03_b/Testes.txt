@@ -1,0 +1,9 @@
+% exemplo de como usar:
+i = imread('cameraman.tif');
+hsize = 7;
+sigma = 1;
+[ifinal, ifiltrada] = gaussian(image, hsize, sigma);
+% Para mostrar a imagem original, a imagem com filtro e a convolução gerada.
+imshow([i ifinal ifiltrada]);
+% Para mostrar a imagem original e a imagem com filtro.
+imshow([i ifinal]); 
